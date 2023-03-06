@@ -29,4 +29,6 @@ Please note this code does not work for the "processing a page" endpoint.
 
 You can modify the form in `index.html` to suit what you want to test.  You can visit `http://localhost:3000/fields` and `http://localhost:3000/questions` to see their fields and questions in your account. You should use the "name" property from those JSON responses.
 
+**The email address field is required**
+
 **Questions or opt ins must have their name attribute prefixed with `question.` like `question.default opt in`**.
